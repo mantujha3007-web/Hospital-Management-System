@@ -3,7 +3,7 @@ import { Facebook, Instagram, Twitter, Linkedin, Send, CheckCircle } from 'lucid
 import Carousel from '../components/Carousel';
 import { Link } from 'react-router-dom'; // 1. Import Link
 
-const Home = () => {
+const MiddlePage = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
 
   const handleNewsletterSubmit = (e) => {
@@ -117,4 +117,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default MiddlePage;

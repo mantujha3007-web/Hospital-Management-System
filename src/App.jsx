@@ -7,7 +7,7 @@ import Chatbot from './components/Chatbot';
 import Payment from './components/Payment';
 
 // Original Pages
-import Home from './pages/Home';
+import MiddlePage from './pages/MiddlePage';
 import Contact from './pages/Contact';
 import Register from './pages/Register';
 import ForgotPassword from './pages/ForgotPassword';
@@ -46,9 +46,10 @@ function App() {
         </nav>
       </header>
 
-      <Routes>
+      
+      <Routes path="/" element={<MiddlePage />}>
         {/* Basic Routes */}
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<MiddlePage />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
