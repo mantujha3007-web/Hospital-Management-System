@@ -1,3 +1,7 @@
+# You can view the website at this link 
+https://mantujha3007-web.github.io/Hospital-Management-System/
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
