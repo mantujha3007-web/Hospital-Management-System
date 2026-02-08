@@ -22,12 +22,13 @@ import Insurers from './pages/Insurers';
 // import PublicHealth from './pages/PublicHealth';
 import EarlyDetection from './pages/Earlydectection';
 import DietPlan from './pages/DietPlan';
+import { BrowserRouter } from 'react-router-dom';
 
 import './index.css';
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter basename="/Hospital-Management-System">
       <header>
         <nav>
           <Link to="/">Home</Link>
@@ -70,7 +71,7 @@ function App() {
 
       {/* Floating AI Chatbot */}
       <Chatbot />
-    </Router>
+    </BrowserRouter>
   );
 }
 
