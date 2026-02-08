@@ -2,10 +2,10 @@ import React, { useState, useEffect, useRef } from 'react';
 
 const Carousel = () => {
   const [items, setItems] = useState([
-    { id: 1, img: "images/image1.jpg", author: "Mantu", title: "HealthyCare", topic: "system" },
-    { id: 2, img: "images/image2.jpg", author: "Mantu", title: "BEST", topic: "Endocrinologist" },
-    { id: 3, img: "images/image3.jpeg", author: "Mantu", title: "BEST", topic: "Ophthalmologist" },
-    { id: 4, img: "images/image4.jpg", author: "Mantu", title: "BEST", topic: "Psychologist" },
+    { id: 1, img: "./images/image1.jpg", author: "Mantu", title: "HealthyCare", topic: "system" },
+    { id: 2, img: "./images/image2.jpg", author: "Mantu", title: "BEST", topic: "Endocrinologist" },
+    { id: 3, img: "./images/image3.jpeg", author: "Mantu", title: "BEST", topic: "Ophthalmologist" },
+    { id: 4, img: "./images/image4.jpg", author: "Mantu", title: "BEST", topic: "Psychologist" },
   ]);
 
   const [type, setType] = useState('');
